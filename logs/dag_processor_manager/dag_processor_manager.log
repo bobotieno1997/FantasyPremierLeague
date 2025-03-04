@@ -4426,3 +4426,385 @@ File Path                                            PID    Runtime      # DAGs 
 /opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.11s           2025-03-04T11:20:46                      12
 /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  0.88s           2025-03-04T11:20:50                      12
 ================================================================================
+[2025-03-04T11:21:31.164+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.52s           2025-03-04T11:21:17                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.42s           2025-03-04T11:21:17                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.15s           2025-03-04T11:21:09                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.13s           2025-03-04T11:21:21                      12
+================================================================================
+[2025-03-04T11:22:01.599+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.47s           2025-03-04T11:21:40                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.30s           2025-03-04T11:21:49                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.21s           2025-03-04T11:21:49                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.09s           2025-03-04T11:21:53                      12
+================================================================================
+[2025-03-04T11:22:26.742+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-04T11:22:27.173+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-03-04T11:22:32.418+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  2.17s           2025-03-04T11:22:25                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.80s           2025-03-04T11:22:12                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.59s           2025-03-04T11:22:21                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.43s           2025-03-04T11:22:20                      12
+================================================================================
+[2025-03-04T11:23:02.755+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  2.23s           2025-03-04T11:22:54                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.99s           2025-03-04T11:22:53                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.45s           2025-03-04T11:22:57                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.20s           2025-03-04T11:22:44                      12
+================================================================================
+[2025-03-04T11:23:33.043+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  2.07s           2025-03-04T11:23:30                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.38s           2025-03-04T11:23:24                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.26s           2025-03-04T11:23:16                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.15s           2025-03-04T11:23:25                      12
+================================================================================
+[2025-03-04T11:24:03.174+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.32s           2025-03-04T11:24:02                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.09s           2025-03-04T11:23:56                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.08s           2025-03-04T11:23:56                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.01s           2025-03-04T11:23:47                      12
+================================================================================
+[2025-03-04T11:24:33.530+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.74s           2025-03-04T11:24:19                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.55s           2025-03-04T11:24:28                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py       5196  1.03s             1           0  1.32s           2025-03-04T11:24:02                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.19s           2025-03-04T11:24:28                      12
+================================================================================
+[2025-03-04T11:25:03.745+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.27s           2025-03-04T11:24:51                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.26s           2025-03-04T11:24:33                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.14s           2025-03-04T11:25:00                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.01s           2025-03-04T11:24:59                      12
+================================================================================
+[2025-03-04T11:25:33.976+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.48s           2025-03-04T11:25:23                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.28s           2025-03-04T11:25:31                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.26s           2025-03-04T11:25:32                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.06s           2025-03-04T11:25:04                      12
+================================================================================
+[2025-03-04T11:26:04.570+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.46s           2025-03-04T11:25:55                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.27s           2025-03-04T11:26:02                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.18s           2025-03-04T11:25:36                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.01s           2025-03-04T11:26:03                      12
+================================================================================
+[2025-03-04T11:26:34.984+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.56s           2025-03-04T11:26:34                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.22s           2025-03-04T11:26:26                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.12s           2025-03-04T11:26:07                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py   5250  1.14s             1           0  1.01s           2025-03-04T11:26:03                      12
+================================================================================
+[2025-03-04T11:27:05.361+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  2.31s           2025-03-04T11:26:40                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.91s           2025-03-04T11:26:59                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py       5262  0.57s             1           0  1.56s           2025-03-04T11:26:34                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.56s           2025-03-04T11:26:35                      12
+================================================================================
+[2025-03-04T11:27:27.439+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-04T11:27:27.854+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-03-04T11:27:36.092+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.56s           2025-03-04T11:27:06                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.12s           2025-03-04T11:27:06                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  0.96s           2025-03-04T11:27:12                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  0.94s           2025-03-04T11:27:30                      12
+================================================================================
+[2025-03-04T11:28:06.772+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  2.62s           2025-03-04T11:28:03                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.34s           2025-03-04T11:27:43                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  0.88s           2025-03-04T11:27:38                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  0.88s           2025-03-04T11:27:38                      12
+================================================================================
+[2025-03-04T11:28:37.293+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  2.55s           2025-03-04T11:28:11                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  2.51s           2025-03-04T11:28:11                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.74s           2025-03-04T11:28:15                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.03s           2025-03-04T11:28:35                      12
+================================================================================
+[2025-03-04T11:29:07.596+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.95s           2025-03-04T11:28:47                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.89s           2025-03-04T11:29:07                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.16s           2025-03-04T11:28:42                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.04s           2025-03-04T11:28:42                      12
+================================================================================
+[2025-03-04T11:29:38.152+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py     5330  0.01s             1           0  1.89s           2025-03-04T11:29:07                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.85s           2025-03-04T11:29:19                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.80s           2025-03-04T11:29:14                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.72s           2025-03-04T11:29:14                      12
+================================================================================
+[2025-03-04T11:30:08.332+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.41s           2025-03-04T11:29:46                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.36s           2025-03-04T11:29:46                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.25s           2025-03-04T11:29:39                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.15s           2025-03-04T11:29:50                      12
+================================================================================
+[2025-03-04T11:30:38.797+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.49s           2025-03-04T11:30:19                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.35s           2025-03-04T11:30:22                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.25s           2025-03-04T11:30:11                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.19s           2025-03-04T11:30:18                      12
+================================================================================
+[2025-03-04T11:31:08.808+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.63s           2025-03-04T11:30:51                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.51s           2025-03-04T11:30:51                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.31s           2025-03-04T11:30:43                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.29s           2025-03-04T11:30:54                      12
+================================================================================
+[2025-03-04T11:31:38.862+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.54s           2025-03-04T11:31:26                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.39s           2025-03-04T11:31:15                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.17s           2025-03-04T11:31:22                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.16s           2025-03-04T11:31:22                      12
+================================================================================
+[2025-03-04T11:32:09.738+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.98s           2025-03-04T11:31:48                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.60s           2025-03-04T11:31:55                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.60s           2025-03-04T11:31:55                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.38s           2025-03-04T11:31:58                      12
+================================================================================
+[2025-03-04T11:32:27.492+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-04T11:32:27.809+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-03-04T11:32:40.236+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  2.14s           2025-03-04T11:32:21                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.41s           2025-03-04T11:32:26                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.35s           2025-03-04T11:32:26                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.14s           2025-03-04T11:32:30                      12
+================================================================================
+[2025-03-04T11:33:10.603+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.79s           2025-03-04T11:32:53                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.51s           2025-03-04T11:32:58                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.47s           2025-03-04T11:32:58                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.41s           2025-03-04T11:33:01                      12
+================================================================================
+[2025-03-04T11:33:40.835+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  2.25s           2025-03-04T11:33:26                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.59s           2025-03-04T11:33:30                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.57s           2025-03-04T11:33:33                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.55s           2025-03-04T11:33:30                      12
+================================================================================
+[2025-03-04T11:34:11.046+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.54s           2025-03-04T11:33:58                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.39s           2025-03-04T11:34:05                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.24s           2025-03-04T11:34:02                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.06s           2025-03-04T11:34:02                      12
+================================================================================
+[2025-03-04T11:34:41.256+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.99s           2025-03-04T11:34:34                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.91s           2025-03-04T11:34:30                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.79s           2025-03-04T11:34:35                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.78s           2025-03-04T11:34:37                      12
+================================================================================
+[2025-03-04T11:35:11.531+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.77s           2025-03-04T11:35:02                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.75s           2025-03-04T11:35:07                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.73s           2025-03-04T11:35:06                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.54s           2025-03-04T11:35:09                      12
+================================================================================
+[2025-03-04T11:35:41.999+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  2.37s           2025-03-04T11:35:40                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.92s           2025-03-04T11:35:38                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.64s           2025-03-04T11:35:35                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py       5497  2.42s             1           0  1.54s           2025-03-04T11:35:09                      12
+================================================================================
+[2025-03-04T11:36:12.840+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py       5511  0.02s             1           0  2.43s           2025-03-04T11:35:42                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.50s           2025-03-04T11:36:07                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.31s           2025-03-04T11:36:11                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.29s           2025-03-04T11:36:10                      12
+================================================================================
+[2025-03-04T11:36:43.248+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  2.11s           2025-03-04T11:36:40                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.50s           2025-03-04T11:36:42                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.40s           2025-03-04T11:36:14                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py       5523  1.08s             1           0  1.31s           2025-03-04T11:36:11                      12
+================================================================================
+[2025-03-04T11:37:13.446+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.91s           2025-03-04T11:37:12                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.74s           2025-03-04T11:36:46                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.57s           2025-03-04T11:36:43                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py   5535  0.66s             1           0  1.50s           2025-03-04T11:36:42                      12
+================================================================================
+[2025-03-04T11:37:27.761+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-04T11:37:28.164+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-03-04T11:37:43.726+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py     5547  1.04s             1           0  1.91s           2025-03-04T11:37:12                      12
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.64s           2025-03-04T11:37:18                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.44s           2025-03-04T11:37:15                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.40s           2025-03-04T11:37:14                      12
+================================================================================
+[2025-03-04T11:38:14.023+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py                               1           0  1.82s           2025-03-04T11:37:51                      12
+/opt/airflow/dags/01_Bronze/03_FPL_raw_game_week.py                           1           0  1.61s           2025-03-04T11:37:46                      12
+/opt/airflow/dags/01_Bronze/04_FPL_raw_stats.py                               1           0  1.37s           2025-03-04T11:37:47                      12
+/opt/airflow/dags/01_Bronze/02_FPL_raw_players.py                             1           0  1.33s           2025-03-04T11:37:44                      12
+================================================================================
