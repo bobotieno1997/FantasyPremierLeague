@@ -2379,3 +2379,59 @@ ImportError: cannot import name 'taskk' from 'airflow.decorators' (/home/airflow
 [2025-03-04T10:30:33.150+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:30:33.149+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-04T10:30:33.359+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:30:33.359+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_players to 2025-03-04 00:00:00+00:00, run_after=2025-03-05 00:00:00+00:00
 [2025-03-04T10:30:33.567+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py took 1.986 seconds
+[2025-03-04T10:31:03.865+0000] {processor.py:186} INFO - Started process (PID=3731) to work on /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:31:03.868+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py for tasks to queue
+[2025-03-04T10:31:03.875+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:31:03.874+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:31:04.985+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_players' retrieved from /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:31:05.030+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:31:05.030+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-04T10:31:05.108+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:31:05.107+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_players to 2025-03-04 00:00:00+00:00, run_after=2025-03-05 00:00:00+00:00
+[2025-03-04T10:31:05.147+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py took 1.298 seconds
+[2025-03-04T10:31:35.405+0000] {processor.py:186} INFO - Started process (PID=3745) to work on /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:31:35.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py for tasks to queue
+[2025-03-04T10:31:35.415+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:31:35.415+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:31:36.547+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_players' retrieved from /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:31:36.594+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:31:36.593+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-04T10:31:36.640+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:31:36.640+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_players to 2025-03-04 00:00:00+00:00, run_after=2025-03-05 00:00:00+00:00
+[2025-03-04T10:31:36.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py took 1.288 seconds
+[2025-03-04T10:32:06.855+0000] {processor.py:186} INFO - Started process (PID=3759) to work on /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:32:06.857+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py for tasks to queue
+[2025-03-04T10:32:06.861+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:32:06.860+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:32:07.705+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_players' retrieved from /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:32:07.749+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:32:07.749+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-04T10:32:07.794+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:32:07.793+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_players to 2025-03-04 00:00:00+00:00, run_after=2025-03-05 00:00:00+00:00
+[2025-03-04T10:32:07.830+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py took 0.983 seconds
+[2025-03-04T10:32:38.460+0000] {processor.py:186} INFO - Started process (PID=3773) to work on /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:32:38.464+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py for tasks to queue
+[2025-03-04T10:32:38.478+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:32:38.470+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:32:41.489+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_players' retrieved from /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:32:41.630+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:32:41.619+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-04T10:32:41.758+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:32:41.758+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_players to 2025-03-04 00:00:00+00:00, run_after=2025-03-05 00:00:00+00:00
+[2025-03-04T10:32:41.839+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py took 3.401 seconds
+[2025-03-04T10:33:12.581+0000] {processor.py:186} INFO - Started process (PID=3787) to work on /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:33:12.585+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py for tasks to queue
+[2025-03-04T10:33:12.596+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:33:12.594+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:33:13.749+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_players' retrieved from /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:33:13.800+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:33:13.799+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-04T10:33:13.842+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:33:13.841+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_players to 2025-03-04 00:00:00+00:00, run_after=2025-03-05 00:00:00+00:00
+[2025-03-04T10:33:13.877+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py took 1.326 seconds
+[2025-03-04T10:33:44.054+0000] {processor.py:186} INFO - Started process (PID=3802) to work on /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:33:44.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py for tasks to queue
+[2025-03-04T10:33:44.061+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:33:44.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:33:45.009+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_players' retrieved from /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:33:45.058+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:33:45.057+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-04T10:33:45.099+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:33:45.099+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_players to 2025-03-04 00:00:00+00:00, run_after=2025-03-05 00:00:00+00:00
+[2025-03-04T10:33:45.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py took 1.092 seconds
+[2025-03-04T10:34:15.496+0000] {processor.py:186} INFO - Started process (PID=3816) to work on /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:34:15.500+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py for tasks to queue
+[2025-03-04T10:34:15.510+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:34:15.509+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:34:17.061+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_players' retrieved from /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:34:17.111+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:34:17.110+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-04T10:34:17.172+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:34:17.171+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_players to 2025-03-04 00:00:00+00:00, run_after=2025-03-05 00:00:00+00:00
+[2025-03-04T10:34:17.216+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py took 1.749 seconds
+[2025-03-04T10:34:47.445+0000] {processor.py:186} INFO - Started process (PID=3836) to work on /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:34:47.447+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py for tasks to queue
+[2025-03-04T10:34:47.453+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:34:47.452+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:34:48.528+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_players' retrieved from /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py
+[2025-03-04T10:34:48.574+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:34:48.573+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-04T10:34:48.629+0000] {logging_mixin.py:190} INFO - [2025-03-04T10:34:48.629+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_players to 2025-03-04 00:00:00+00:00, run_after=2025-03-05 00:00:00+00:00
+[2025-03-04T10:34:48.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/02_FPL_raw_players.py took 1.230 seconds
