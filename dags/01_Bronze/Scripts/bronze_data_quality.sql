@@ -1,4 +1,3 @@
--- PLAYERS INFO TABLE ---
 /*
     Data Quality Monitoring Script for Power BI Integration
     Purpose: Validate data integrity in bronze.players_info table
