@@ -44,14 +44,31 @@ with DAG(
             response.raise_for_status()  # Raises HTTPError for bad responses
             data = response.json()
             logging.info("✅ Players data fetched successfully")
-            return data
+            # Get date for season categorization
+            dates = []
+            for event in data['events']:
+                _date = event.get('deadline_time')  # Fixed: Use event, not stats
+                if _date:
+                    dates.append(_date)
+
+            if not dates:
+                raise ValueError("❌ No deadline_time found in events.")
+            
+            max_date = max(dates)
+            min_date = min(dates)
+            return {"data": data, "min_date": min_date,"max_date":max_date} 
+
         except requests.RequestException as e:
             logging.error(f"❌ Error fetching data from API: {e}")
             raise
 
     @task()
-    def create_data_frame(data):
+    def create_data_frame(raw_data):
         """Convert API response to a Pandas DataFrame."""
+        data = raw_data["data"]
+        min_date = raw_data["min_date"]
+        max_date = raw_data["max_date"]
+
         if not data or "elements" not in data:
             raise ValueError("❌ API response is empty or malformed.")
 
@@ -68,6 +85,8 @@ with DAG(
                 "team": "team_id",
                 "code": "player_code"
             }, inplace=True)
+            df['min_kickoff'] = min_date
+            df['max_kickoff'] = max_date
 
             logging.info(f"✅ DataFrame created with {len(df)} records.")
             return df

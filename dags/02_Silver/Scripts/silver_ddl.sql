@@ -26,51 +26,61 @@ WARNING:
 */
 
 -- Create teams_info table for basic team details
-CREATE TABLE bronze.teams_info (
+CREATE TABLE silver.teams_info (
     team_id SMALLINT,
     team_code SMALLINT,
-    team_name VARCHAR(20),
-    team_short_name CHAR(3)
+    team_name TEXT,
+    team_short_name TEXT,
+    dwh_team_id BIGINT,
+    dwh_ingestion_date TIMESTAMP DEFAULT NOW()
 );
 
 -- Create players_info table for individual player information
-CREATE TABLE bronze.players_info (
+CREATE TABLE silver.players_info (
     player_id INT,
-    first_name VARCHAR(20),
-    second_name VARCHAR(20),
-    web_name VARCHAR(20),
+    first_name TEXT,
+    second_name TEXT,
+    web_name TEXT,
     team_code SMALLINT,
     team_id SMALLINT,
     player_position SMALLINT,
     player_code INT,
     player_region SMALLINT,
     can_select BOOL,
-    photo_url TEXT
+    photo_url TEXT,
+    dwh_team_id BIGINT,
+    dwh_player_id BIGINT,
+    dwh_ingestion_date TIMESTAMP DEFAULT NOW()
 );
 
 -- Create games_info table for match/fixture details
-CREATE TABLE bronze.games_info (
-    gamecode INT,
-    game_week_id SMALLINT,
-    finished BOOL,
-    game_id SMALLINT,
-    kickoff_time SMALLINT,
-    team_id_h SMALLINT,
-    team_id_a SMALLINT,
-    team_h_score INT,
-    team_a_score INT,
-    difficuly_h SMALLINT,
-    difficuly_a SMALLINT
-);
+CREATE TABLE silver.games_info (
+game_code BIGINT,
+game_week_id SMALLINT,
+finished boolean,
+game_id SMALLINT,
+kickoff_time TIMESTAMP,
+dwh_team_id_a BIGINT,
+dwh_team_id_h BIGINT,
+team_a_score SMALLINT,
+team_h_score SMALLINT,
+difficulty_a SMALLINT,
+difficulty_h SMALLINT,
+season INT,
+dwh_ingestion_date TIMESTAMP DEFAULT NOW()
+)
 
 -- Create player_stats table for player performance statistics
-CREATE TABLE bronze.player_stats (
-    game_code INT,
-    finished BOOL,
-    game_id SMALLINT,
-    stat_value SMALLINT,
-    player_id SMALLINT,
-    team_type CHAR(1),
-    stat_type VARCHAR(20)
-);
+CREATE TABLE silver.player_stats(
+game_code BIGINT,
+finished BOOLEAN,
+game_id SMALLINT,
+stats_value SMALLINT,
+player_id SMALLINT,
+team_type CHAR(1),
+stat_type VARCHAR(30),
+season INT,
+dwh_player_id BIGINT,
+dwh_ingestion_date TIMESTAMP DEFAULT NOW()
+)
 
