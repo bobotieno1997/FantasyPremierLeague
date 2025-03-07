@@ -63,6 +63,20 @@ CREATE TABLE bronze.games_info (
     difficuly_a SMALLINT
 );
 
+-- Create a table for future games alone
+CREATE TABLE silver.future_games_info(
+    game_code BIGINT,
+    game_week_id SMALLINT,
+    finished BOOLEAN,
+    game_id SMALLINT,
+    kickoff_time TIMESTAMP,
+    dwh_team_id_a BIGINT,
+    dwh_team_id_h BIGINT,
+    difficulty_a SMALLINT,
+    difficulty_h SMALLINT,
+season INT
+)
+
 -- Create player_stats table for player performance statistics
 CREATE TABLE bronze.player_stats (
     game_code INT,
@@ -73,4 +87,3 @@ CREATE TABLE bronze.player_stats (
     team_type CHAR(1),
     stat_type VARCHAR(20)
 );
-

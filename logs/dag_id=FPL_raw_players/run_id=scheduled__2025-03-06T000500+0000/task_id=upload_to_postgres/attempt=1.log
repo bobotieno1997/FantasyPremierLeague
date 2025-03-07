@@ -1,0 +1,66 @@
+[2025-03-07T08:59:25.569+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-07T08:59:25.705+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: FPL_raw_players.upload_to_postgres scheduled__2025-03-06T00:05:00+00:00 [queued]>
+[2025-03-07T08:59:25.765+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: FPL_raw_players.upload_to_postgres scheduled__2025-03-06T00:05:00+00:00 [queued]>
+[2025-03-07T08:59:25.767+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 3
+[2025-03-07T08:59:25.823+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): upload_to_postgres> on 2025-03-06 00:05:00+00:00
+[2025-03-07T08:59:25.845+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=192) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-07T08:59:25.849+0000] {standard_task_runner.py:72} INFO - Started process 194 to run task
+[2025-03-07T08:59:25.855+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'FPL_raw_players', 'upload_to_postgres', 'scheduled__2025-03-06T00:05:00+00:00', '--job-id', '151', '--raw', '--subdir', 'DAGS_FOLDER/01_Bronze/02_FPL_raw_players.py', '--cfg-path', '/tmp/tmpdy8ndy6j']
+[2025-03-07T08:59:25.867+0000] {standard_task_runner.py:105} INFO - Job 151: Subtask upload_to_postgres
+[2025-03-07T08:59:26.022+0000] {task_command.py:467} INFO - Running <TaskInstance: FPL_raw_players.upload_to_postgres scheduled__2025-03-06T00:05:00+00:00 [running]> on host 0f0b0357cf30
+[2025-03-07T08:59:26.719+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='bobotieno99@gmail.com' AIRFLOW_CTX_DAG_OWNER='Fantasy Premier League' AIRFLOW_CTX_DAG_ID='FPL_raw_players' AIRFLOW_CTX_TASK_ID='upload_to_postgres' AIRFLOW_CTX_EXECUTION_DATE='2025-03-06T00:05:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-06T00:05:00+00:00'
+[2025-03-07T08:59:26.721+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-07T08:59:26.733+0000] {02_FPL_raw_players.py:128} INFO - ✅ Database connection established
+[2025-03-07T08:59:38.160+0000] {02_FPL_raw_players.py:142} INFO - ✅ Data loaded into 'bronze.teams_info' successfully
+[2025-03-07T08:59:38.173+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-07T08:59:38.252+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-07T08:59:38.269+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=FPL_raw_players, task_id=upload_to_postgres, run_id=scheduled__2025-03-06T00:05:00+00:00, execution_date=20250306T000500, start_date=20250307T085925, end_date=20250307T085938
+[2025-03-07T08:59:38.536+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-07T08:59:38.599+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-07T08:59:38.608+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-03-07T09:18:32.579+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-07T09:18:33.018+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: FPL_raw_players.upload_to_postgres scheduled__2025-03-06T00:05:00+00:00 [queued]>
+[2025-03-07T09:18:33.050+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: FPL_raw_players.upload_to_postgres scheduled__2025-03-06T00:05:00+00:00 [queued]>
+[2025-03-07T09:18:33.051+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 3
+[2025-03-07T09:18:33.084+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): upload_to_postgres> on 2025-03-06 00:05:00+00:00
+[2025-03-07T09:18:33.103+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=163) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-07T09:18:33.109+0000] {standard_task_runner.py:72} INFO - Started process 165 to run task
+[2025-03-07T09:18:33.105+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'FPL_raw_players', 'upload_to_postgres', 'scheduled__2025-03-06T00:05:00+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/01_Bronze/02_FPL_raw_players.py', '--cfg-path', '/tmp/tmpn25v5ey9']
+[2025-03-07T09:18:33.112+0000] {standard_task_runner.py:105} INFO - Job 48: Subtask upload_to_postgres
+[2025-03-07T09:18:33.329+0000] {task_command.py:467} INFO - Running <TaskInstance: FPL_raw_players.upload_to_postgres scheduled__2025-03-06T00:05:00+00:00 [running]> on host de0598ea6583
+[2025-03-07T09:18:34.129+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='bobotieno99@gmail.com' AIRFLOW_CTX_DAG_OWNER='Fantasy Premier League' AIRFLOW_CTX_DAG_ID='FPL_raw_players' AIRFLOW_CTX_TASK_ID='upload_to_postgres' AIRFLOW_CTX_EXECUTION_DATE='2025-03-06T00:05:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-06T00:05:00+00:00'
+[2025-03-07T09:18:34.140+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-07T09:18:34.159+0000] {02_FPL_raw_players.py:128} INFO - ✅ Database connection established
+[2025-03-07T09:18:44.184+0000] {02_FPL_raw_players.py:142} INFO - ✅ Data loaded into 'bronze.teams_info' successfully
+[2025-03-07T09:18:44.185+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-07T09:18:44.207+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-07T09:18:44.209+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=FPL_raw_players, task_id=upload_to_postgres, run_id=scheduled__2025-03-06T00:05:00+00:00, execution_date=20250306T000500, start_date=20250307T091833, end_date=20250307T091844
+[2025-03-07T09:18:44.361+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-07T09:18:44.419+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-07T09:18:44.423+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-03-07T09:49:56.106+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-07T09:49:56.159+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: FPL_raw_players.upload_to_postgres scheduled__2025-03-06T00:05:00+00:00 [queued]>
+[2025-03-07T09:49:56.190+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: FPL_raw_players.upload_to_postgres scheduled__2025-03-06T00:05:00+00:00 [queued]>
+[2025-03-07T09:49:56.191+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 3
+[2025-03-07T09:49:56.223+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): upload_to_postgres> on 2025-03-06 00:05:00+00:00
+[2025-03-07T09:49:56.236+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=408) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-07T09:49:56.241+0000] {standard_task_runner.py:72} INFO - Started process 422 to run task
+[2025-03-07T09:49:56.241+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'FPL_raw_players', 'upload_to_postgres', 'scheduled__2025-03-06T00:05:00+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/01_Bronze/02_FPL_raw_players.py', '--cfg-path', '/tmp/tmpmz10tcq7']
+[2025-03-07T09:49:56.247+0000] {standard_task_runner.py:105} INFO - Job 14: Subtask upload_to_postgres
+[2025-03-07T09:49:56.350+0000] {task_command.py:467} INFO - Running <TaskInstance: FPL_raw_players.upload_to_postgres scheduled__2025-03-06T00:05:00+00:00 [running]> on host 6fac9c74855d
+[2025-03-07T09:49:56.666+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='bobotieno99@gmail.com' AIRFLOW_CTX_DAG_OWNER='Fantasy Premier League' AIRFLOW_CTX_DAG_ID='FPL_raw_players' AIRFLOW_CTX_TASK_ID='upload_to_postgres' AIRFLOW_CTX_EXECUTION_DATE='2025-03-06T00:05:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-06T00:05:00+00:00'
+[2025-03-07T09:49:56.670+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-07T09:49:56.674+0000] {02_FPL_raw_players.py:128} INFO - ✅ Database connection established
+[2025-03-07T09:50:06.036+0000] {02_FPL_raw_players.py:142} INFO - ✅ Data loaded into 'bronze.teams_info' successfully
+[2025-03-07T09:50:06.037+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-07T09:50:06.050+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-07T09:50:06.051+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=FPL_raw_players, task_id=upload_to_postgres, run_id=scheduled__2025-03-06T00:05:00+00:00, execution_date=20250306T000500, start_date=20250307T094956, end_date=20250307T095006
+[2025-03-07T09:50:06.111+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-07T09:50:06.128+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-07T09:50:06.130+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

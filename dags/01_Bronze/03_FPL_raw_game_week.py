@@ -30,7 +30,7 @@ default_args = {
 with DAG(
     "FPL_raw_games",
     default_args=default_args,
-    schedule="@daily",
+    schedule="5 0 * * *",
     catchup=False,
     tags=["FPL", "Raw", "games"],
 ) as dag:

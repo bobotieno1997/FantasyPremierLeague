@@ -49,10 +49,12 @@ BEGIN
                     ELSE '20252026' -- Placeholder for future seasons
                 END AS INTEGER) AS season
         FROM bronze.games_info
+		WHERE finished = TRUE
     ) bgi
     LEFT JOIN silver.games_info sgi 
         ON bgi.game_code = sgi.game_code
-    WHERE sgi.game_code IS NULL; -- Filters to only new records
+    WHERE sgi.game_code IS NULL -- Filters to only new records
+	ORDER BY bgi.game_code, bgi.season, bgi.game_week_id;
 
 EXCEPTION
     WHEN OTHERS THEN

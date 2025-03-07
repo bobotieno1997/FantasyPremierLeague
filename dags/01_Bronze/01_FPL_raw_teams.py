@@ -30,7 +30,7 @@ default_args = {
 with DAG(
     "FPL_raw_teams",
     default_args=default_args,
-    schedule="@daily",
+    schedule="5 0 * * *",
     catchup=False,
     tags=["FPL", "Raw", "teams"],
 ) as dag:
@@ -90,6 +90,15 @@ with DAG(
         except Exception as e:
             logging.error(f"❌ Error converting data to DataFrame: {e}")
             raise
+    @task()
+    def add_photo_url(df):
+        base_url = "https://resources.premierleague.com/premierleague/badges/t"
+       # Fetch logo files from the GitHub repository
+        df['logo_url'] = df['team_code'].apply(lambda code : f"{base_url}{code}.png")
+
+        df.loc[df['team_name'] == 'Liverpool', 'logo_url'] = 'https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/180px-Liverpool_FC.svg.png' 
+        return df
+
 
     @task()
     def upload_to_postgres(df):
@@ -134,5 +143,6 @@ with DAG(
     # Define task dependencies using TaskFlow API
     raw_data = pull_data_from_api()
     df = create_data_frame(raw_data)
-    upload_to_postgres(df)
+    fdf = add_photo_url(df)
+    upload_to_postgres(fdf)
 

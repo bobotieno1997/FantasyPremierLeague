@@ -18,13 +18,14 @@ BEGIN
     -- Insert new team records into silver layer
     -- Business Rule: Only adds records not already present in silver based on team_code
         INSERT INTO silver.teams_info(
-        team_id,team_code,team_name,team_short_name,dwh_team_id
+        team_id,team_code,team_name,team_short_name,logo_url,dwh_team_id
         )
         SELECT 
             CAST(bti.team_id AS SMALLINT)AS team_id,
             CAST(bti.team_code AS SMALLINT) AS team_code,
             bti.team_name,
             bti.team_short_name,
+            bti.logo_url,
             CAST(
             CONCAT(bti.team_id,
             EXTRACT(YEAR FROM bti.min_kickoff::TIMESTAMP),
@@ -46,3 +47,4 @@ EXCEPTION
         RAISE NOTICE 'ERROR: %', SQLERRM;
         RAISE;  -- Re-raise the exception after logging
 END;
+$$

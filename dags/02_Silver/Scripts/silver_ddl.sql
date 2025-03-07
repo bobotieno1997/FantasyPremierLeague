@@ -31,6 +31,7 @@ CREATE TABLE silver.teams_info (
     team_code SMALLINT,
     team_name TEXT,
     team_short_name TEXT,
+    logo_url TEXT,
     dwh_team_id BIGINT,
     dwh_ingestion_date TIMESTAMP DEFAULT NOW()
 );
