@@ -31,7 +31,7 @@ with DAG(
     "FPL_raw_games",
     default_args=default_args,
     schedule="5 0 * * *",
-    catchup=False,
+    catchup=True,
     tags=["FPL", "Raw", "games"],
 ) as dag:
 

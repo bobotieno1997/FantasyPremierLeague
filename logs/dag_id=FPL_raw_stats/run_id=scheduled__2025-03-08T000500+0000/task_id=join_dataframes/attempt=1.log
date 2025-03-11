@@ -1,0 +1,34 @@
+[2025-03-11T11:56:46.420+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-11T11:56:46.517+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: FPL_raw_stats.join_dataframes scheduled__2025-03-08T00:05:00+00:00 [queued]>
+[2025-03-11T11:56:46.564+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: FPL_raw_stats.join_dataframes scheduled__2025-03-08T00:05:00+00:00 [queued]>
+[2025-03-11T11:56:46.566+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 3
+[2025-03-11T11:56:46.631+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): join_dataframes> on 2025-03-08 00:05:00+00:00
+[2025-03-11T11:56:46.659+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=309) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-11T11:56:46.662+0000] {standard_task_runner.py:72} INFO - Started process 311 to run task
+[2025-03-11T11:56:46.664+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'FPL_raw_stats', 'join_dataframes', 'scheduled__2025-03-08T00:05:00+00:00', '--job-id', '148', '--raw', '--subdir', 'DAGS_FOLDER/01_Bronze/04_FPL_raw_stats.py', '--cfg-path', '/tmp/tmpam5mog8a']
+[2025-03-11T11:56:46.674+0000] {standard_task_runner.py:105} INFO - Job 148: Subtask join_dataframes
+[2025-03-11T11:56:46.875+0000] {task_command.py:467} INFO - Running <TaskInstance: FPL_raw_stats.join_dataframes scheduled__2025-03-08T00:05:00+00:00 [running]> on host fadf592d593e
+[2025-03-11T11:56:48.036+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='bobotieno99@gmail.com' AIRFLOW_CTX_DAG_OWNER='Fantasy Premier League' AIRFLOW_CTX_DAG_ID='FPL_raw_stats' AIRFLOW_CTX_TASK_ID='join_dataframes' AIRFLOW_CTX_EXECUTION_DATE='2025-03-08T00:05:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-08T00:05:00+00:00'
+[2025-03-11T11:56:48.038+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-11T11:56:48.127+0000] {04_FPL_raw_stats.py:91} INFO - ✅ Data processing completed successfully
+[2025-03-11T11:56:48.128+0000] {python.py:240} INFO - Done. Returned value was:        game_code  finished  game_id  ...  player_id  team_type     stat_type
+0        2444470      True        1  ...        389          h  goals_scored
+1        2444473      True        4  ...        317          a  goals_scored
+2        2444473      True        4  ...        328          a  goals_scored
+3        2444471      True        2  ...          4          h  goals_scored
+4        2444471      True        2  ...         17          h  goals_scored
+...          ...       ...      ...  ...        ...        ...           ...
+12383    2444748      True      279  ...        517          h           bps
+12384    2444748      True      279  ...        527          h           bps
+12385    2444748      True      279  ...        523          h           bps
+12386    2444748      True      279  ...        528          h           bps
+12387    2444748      True      279  ...        654          h           bps
+
+[12388 rows x 7 columns]
+[2025-03-11T11:56:48.280+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-11T11:56:48.282+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=FPL_raw_stats, task_id=join_dataframes, run_id=scheduled__2025-03-08T00:05:00+00:00, execution_date=20250308T000500, start_date=20250311T115646, end_date=20250311T115648
+[2025-03-11T11:56:48.377+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-11T11:56:48.426+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-11T11:56:48.435+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

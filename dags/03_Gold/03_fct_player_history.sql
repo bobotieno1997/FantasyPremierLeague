@@ -3,7 +3,7 @@
 -- Source: silver.players_info table
 -- Last Updated: March 06, 2025
 -- Note: In PostgreSQL, ORDER BY in view definition doesn't guarantee order unless queried with ORDER BY
-CREATE OR REPLACE VIEW gold.fct_player_history AS
+CREATE OR REPLACE VIEW gold.v_fct_player_history AS
 SELECT 
     -- Generates a unique surrogate key for each history record using ROW_NUMBER()
     -- Ordered by player_code for deterministic key assignment

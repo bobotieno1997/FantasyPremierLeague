@@ -1,0 +1,622 @@
+[2025-03-08T04:41:39.041+0000] {processor.py:186} INFO - Started process (PID=21196) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:41:39.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:41:39.225+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:41:39.224+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:41:45.468+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:41:45.630+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:41:45.629+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:41:45.888+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:41:45.888+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:41:46.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 7.156 seconds
+[2025-03-08T04:42:16.794+0000] {processor.py:186} INFO - Started process (PID=21211) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:42:16.813+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:42:16.822+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:42:16.820+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:42:18.411+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:42:18.507+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:42:18.506+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:42:18.603+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:42:18.602+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:42:18.679+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.910 seconds
+[2025-03-08T04:42:49.498+0000] {processor.py:186} INFO - Started process (PID=21227) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:42:49.500+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:42:49.505+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:42:49.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:42:50.528+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:42:50.563+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:42:50.562+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:42:50.595+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:42:50.595+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:42:50.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.144 seconds
+[2025-03-08T04:43:21.113+0000] {processor.py:186} INFO - Started process (PID=21242) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:43:21.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:43:21.122+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:43:21.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:43:21.711+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:43:21.738+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:43:21.738+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:43:21.767+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:43:21.767+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:43:21.833+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 0.737 seconds
+[2025-03-08T04:43:52.175+0000] {processor.py:186} INFO - Started process (PID=21258) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:43:52.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:43:52.187+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:43:52.184+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:43:52.935+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:43:52.967+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:43:52.967+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:43:53.008+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:43:53.008+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:43:53.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 0.901 seconds
+[2025-03-08T04:44:23.938+0000] {processor.py:186} INFO - Started process (PID=21273) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:44:23.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:44:23.943+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:44:23.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:44:25.301+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:44:25.375+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:44:25.374+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:44:25.434+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:44:25.434+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:44:25.494+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.566 seconds
+[2025-03-08T04:44:56.620+0000] {processor.py:186} INFO - Started process (PID=21289) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:44:56.622+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:44:56.625+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:44:56.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:44:57.429+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:44:57.459+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:44:57.459+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:44:57.490+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:44:57.490+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:44:57.540+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 0.932 seconds
+[2025-03-08T04:45:28.345+0000] {processor.py:186} INFO - Started process (PID=21310) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:45:28.347+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:45:28.351+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:45:28.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:45:29.152+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:45:29.183+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:45:29.182+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:45:29.212+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:45:29.212+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:45:29.270+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 0.937 seconds
+[2025-03-08T04:45:59.719+0000] {processor.py:186} INFO - Started process (PID=21325) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:45:59.722+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:45:59.736+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:45:59.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:46:01.739+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:46:01.839+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:46:01.837+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:46:01.927+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:46:01.927+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:46:01.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 2.285 seconds
+[2025-03-08T04:46:33.413+0000] {processor.py:186} INFO - Started process (PID=21340) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:46:33.415+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:46:33.420+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:46:33.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:46:34.360+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:46:34.393+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:46:34.393+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:46:34.435+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:46:34.435+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:46:34.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.136 seconds
+[2025-03-08T04:47:05.426+0000] {processor.py:186} INFO - Started process (PID=21355) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:47:05.427+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:47:05.433+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:47:05.432+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:47:06.698+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:47:06.747+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:47:06.746+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:47:06.821+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:47:06.820+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:47:06.862+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.450 seconds
+[2025-03-08T04:47:37.935+0000] {processor.py:186} INFO - Started process (PID=21370) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:47:37.936+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:47:37.940+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:47:37.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:47:38.692+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:47:38.720+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:47:38.719+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:47:38.749+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:47:38.748+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:47:38.814+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 0.887 seconds
+[2025-03-08T04:48:09.614+0000] {processor.py:186} INFO - Started process (PID=21385) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:48:09.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:48:09.621+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:48:09.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:48:10.299+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:48:10.327+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:48:10.327+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:48:10.352+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:48:10.351+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:48:10.378+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 0.773 seconds
+[2025-03-08T04:48:41.119+0000] {processor.py:186} INFO - Started process (PID=21400) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:48:41.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:48:41.130+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:48:41.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:48:42.184+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:48:42.247+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:48:42.246+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:48:42.287+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:48:42.286+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:48:42.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.218 seconds
+[2025-03-08T04:49:12.601+0000] {processor.py:186} INFO - Started process (PID=21415) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:49:12.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:49:12.615+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:49:12.615+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:49:14.866+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:49:14.959+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:49:14.958+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:49:15.057+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:49:15.057+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:49:15.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 2.581 seconds
+[2025-03-08T04:49:45.350+0000] {processor.py:186} INFO - Started process (PID=21430) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:49:45.352+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:49:45.356+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:49:45.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:49:46.156+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:49:46.196+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:49:46.195+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:49:46.225+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:49:46.225+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:49:46.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 0.923 seconds
+[2025-03-08T04:50:16.672+0000] {processor.py:186} INFO - Started process (PID=21445) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:50:16.674+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:50:16.680+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:50:16.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:50:17.791+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:50:17.824+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:50:17.824+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:50:17.854+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:50:17.854+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:50:17.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.224 seconds
+[2025-03-08T04:50:48.427+0000] {processor.py:186} INFO - Started process (PID=21460) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:50:48.429+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:50:48.437+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:50:48.436+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:50:49.241+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:50:49.269+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:50:49.268+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:50:49.298+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:50:49.298+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:50:49.327+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 0.914 seconds
+[2025-03-08T04:51:19.592+0000] {processor.py:186} INFO - Started process (PID=21475) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:51:19.593+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:51:19.597+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:51:19.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:51:20.709+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:51:20.749+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:51:20.748+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:51:20.784+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:51:20.783+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:51:20.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.268 seconds
+[2025-03-08T04:51:51.410+0000] {processor.py:186} INFO - Started process (PID=21490) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:51:51.413+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:51:51.419+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:51:51.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:51:52.321+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:51:52.361+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:51:52.360+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:51:52.409+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:51:52.409+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:51:52.446+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.051 seconds
+[2025-03-08T04:52:22.741+0000] {processor.py:186} INFO - Started process (PID=21506) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:52:22.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:52:22.746+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:52:22.746+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:52:23.358+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:52:23.389+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:52:23.388+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:52:23.422+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:52:23.421+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:52:23.475+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 0.747 seconds
+[2025-03-08T04:52:54.023+0000] {processor.py:186} INFO - Started process (PID=21521) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:52:54.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:52:54.029+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:52:54.028+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:52:54.940+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:52:54.982+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:52:54.981+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:52:55.035+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:52:55.034+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:52:55.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.065 seconds
+[2025-03-08T04:53:25.500+0000] {processor.py:186} INFO - Started process (PID=21536) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:53:25.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T04:53:25.506+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:53:25.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:53:26.142+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T04:53:26.169+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:53:26.169+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T04:53:26.197+0000] {logging_mixin.py:190} INFO - [2025-03-08T04:53:26.196+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T04:53:26.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 0.731 seconds
+[2025-03-08T05:05:41.465+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:05:41.470+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:05:41.477+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:05:41.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:05:52.317+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:05:52.415+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:05:52.414+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:05:52.548+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:05:52.543+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:05:52.664+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 11.242 seconds
+[2025-03-08T05:05:57.401+0000] {processor.py:186} INFO - Started process (PID=91) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:05:57.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:05:57.421+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:05:57.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:05:59.669+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:05:59.770+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:05:59.769+0000] {taskinstance.py:3315} ERROR - {'DAG Id': 'FPL_raw_teams', 'Task Id': 'pull_data_from_api', 'Run Id': 'scheduled__2025-03-07T00:05:00+00:00', 'Hostname': '6fac9c74855d', 'External Executor Id': '002dce61-1924-480e-ae85-37252d65d5c5'}
+[2025-03-08T05:05:59.935+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:05:59.934+0000] {taskinstance.py:1226} INFO - Marking task as UP_FOR_RETRY. dag_id=FPL_raw_teams, task_id=pull_data_from_api, run_id=scheduled__2025-03-07T00:05:00+00:00, execution_date=20250307T000500, start_date=20250308T002759, end_date=20250308T050559
+[2025-03-08T05:06:00.042+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py:155 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2025-03-08T05:06:00.050+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:00.049+0000] {configuration.py:1074} WARNING - section/key [smtp/smtp_user] not found in config
+[2025-03-08T05:06:00.056+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:00.056+0000] {email.py:272} INFO - Email alerting: attempt 1
+[2025-03-08T05:06:00.069+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:00.068+0000] {configuration.py:1074} WARNING - section/key [smtp/smtp_user] not found in config
+[2025-03-08T05:06:00.073+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:00.073+0000] {email.py:272} INFO - Email alerting: attempt 1
+[2025-03-08T05:06:00.094+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:00.079+0000] {taskinstance.py:1235} ERROR - Failed to send email to: ['bobotieno99@gmail.com']
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1443, in _email_alert
+    send_email(task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+           ^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 155, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 274, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 318, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "/usr/local/lib/python3.12/socket.py", line 850, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1233, in _handle_failure
+    task_instance.email_alert(error, failure_context["task"])
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3611, in email_alert
+    _email_alert(task_instance=self, exception=exception, task=task)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1445, in _email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+           ^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 155, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 274, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 318, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "/usr/local/lib/python3.12/socket.py", line 850, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+[2025-03-08T05:06:00.186+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:00.186+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: FPL_raw_teams.pull_data_from_api scheduled__2025-03-07T00:05:00+00:00 [up_for_retry]> in state up_for_retry
+[2025-03-08T05:06:00.194+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:00.194+0000] {taskinstance.py:3315} ERROR - {'DAG Id': 'FPL_raw_teams', 'Task Id': 'pull_data_from_api', 'Run Id': 'manual__2025-03-08T04:44:31.949817+00:00', 'Hostname': '6fac9c74855d', 'External Executor Id': 'a5a72887-c1b8-4688-869b-ad941dafe6b7'}
+[2025-03-08T05:06:00.269+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:00.269+0000] {taskinstance.py:1226} INFO - Marking task as UP_FOR_RETRY. dag_id=FPL_raw_teams, task_id=pull_data_from_api, run_id=manual__2025-03-08T04:44:31.949817+00:00, execution_date=20250308T044431, start_date=20250308T044439, end_date=20250308T050600
+[2025-03-08T05:06:00.323+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:00.322+0000] {configuration.py:1074} WARNING - section/key [smtp/smtp_user] not found in config
+[2025-03-08T05:06:00.341+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:00.340+0000] {email.py:272} INFO - Email alerting: attempt 1
+[2025-03-08T05:06:00.361+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:00.361+0000] {configuration.py:1074} WARNING - section/key [smtp/smtp_user] not found in config
+[2025-03-08T05:06:00.369+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:00.368+0000] {email.py:272} INFO - Email alerting: attempt 1
+[2025-03-08T05:06:00.404+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:00.400+0000] {taskinstance.py:1235} ERROR - Failed to send email to: ['bobotieno99@gmail.com']
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1443, in _email_alert
+    send_email(task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+           ^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 155, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 274, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 318, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "/usr/local/lib/python3.12/socket.py", line 850, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1233, in _handle_failure
+    task_instance.email_alert(error, failure_context["task"])
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3611, in email_alert
+    _email_alert(task_instance=self, exception=exception, task=task)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1445, in _email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+           ^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 155, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 274, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 318, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "/usr/local/lib/python3.12/socket.py", line 850, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+[2025-03-08T05:06:00.491+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:00.491+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: FPL_raw_teams.pull_data_from_api manual__2025-03-08T04:44:31.949817+00:00 [up_for_retry]> in state up_for_retry
+[2025-03-08T05:06:00.595+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:00.594+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:06:00.702+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:00.701+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:06:00.926+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 3.549 seconds
+[2025-03-08T05:06:01.492+0000] {processor.py:186} INFO - Started process (PID=95) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:06:01.506+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:06:01.527+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:01.526+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:06:04.719+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:06:04.784+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:04.783+0000] {taskinstance.py:3315} ERROR - {'DAG Id': 'FPL_raw_teams', 'Task Id': 'pull_data_from_api', 'Run Id': 'scheduled__2025-03-07T00:05:00+00:00', 'Hostname': '6fac9c74855d', 'External Executor Id': '002dce61-1924-480e-ae85-37252d65d5c5'}
+[2025-03-08T05:06:04.916+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:04.916+0000] {taskinstance.py:1226} INFO - Marking task as UP_FOR_RETRY. dag_id=FPL_raw_teams, task_id=pull_data_from_api, run_id=scheduled__2025-03-07T00:05:00+00:00, execution_date=20250307T000500, start_date=20250308T002759, end_date=20250308T050604
+[2025-03-08T05:06:05.031+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py:155 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2025-03-08T05:06:05.044+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:05.043+0000] {configuration.py:1074} WARNING - section/key [smtp/smtp_user] not found in config
+[2025-03-08T05:06:05.047+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:05.047+0000] {email.py:272} INFO - Email alerting: attempt 1
+[2025-03-08T05:06:05.062+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:05.062+0000] {configuration.py:1074} WARNING - section/key [smtp/smtp_user] not found in config
+[2025-03-08T05:06:05.068+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:05.067+0000] {email.py:272} INFO - Email alerting: attempt 1
+[2025-03-08T05:06:05.079+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:05.072+0000] {taskinstance.py:1235} ERROR - Failed to send email to: ['bobotieno99@gmail.com']
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1443, in _email_alert
+    send_email(task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+           ^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 155, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 274, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 318, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "/usr/local/lib/python3.12/socket.py", line 850, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1233, in _handle_failure
+    task_instance.email_alert(error, failure_context["task"])
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3611, in email_alert
+    _email_alert(task_instance=self, exception=exception, task=task)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1445, in _email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+           ^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 155, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 274, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 318, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "/usr/local/lib/python3.12/socket.py", line 850, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+[2025-03-08T05:06:05.166+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:05.165+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: FPL_raw_teams.pull_data_from_api scheduled__2025-03-07T00:05:00+00:00 [up_for_retry]> in state up_for_retry
+[2025-03-08T05:06:05.173+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:05.173+0000] {taskinstance.py:3315} ERROR - {'DAG Id': 'FPL_raw_teams', 'Task Id': 'pull_data_from_api', 'Run Id': 'manual__2025-03-08T04:44:31.949817+00:00', 'Hostname': '6fac9c74855d', 'External Executor Id': 'a5a72887-c1b8-4688-869b-ad941dafe6b7'}
+[2025-03-08T05:06:05.228+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:05.228+0000] {taskinstance.py:1226} INFO - Marking task as UP_FOR_RETRY. dag_id=FPL_raw_teams, task_id=pull_data_from_api, run_id=manual__2025-03-08T04:44:31.949817+00:00, execution_date=20250308T044431, start_date=20250308T044439, end_date=20250308T050605
+[2025-03-08T05:06:05.294+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:05.294+0000] {configuration.py:1074} WARNING - section/key [smtp/smtp_user] not found in config
+[2025-03-08T05:06:05.300+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:05.300+0000] {email.py:272} INFO - Email alerting: attempt 1
+[2025-03-08T05:06:05.343+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:05.338+0000] {configuration.py:1074} WARNING - section/key [smtp/smtp_user] not found in config
+[2025-03-08T05:06:05.348+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:05.347+0000] {email.py:272} INFO - Email alerting: attempt 1
+[2025-03-08T05:06:05.361+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:05.352+0000] {taskinstance.py:1235} ERROR - Failed to send email to: ['bobotieno99@gmail.com']
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1443, in _email_alert
+    send_email(task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+           ^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 155, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 274, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 318, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "/usr/local/lib/python3.12/socket.py", line 850, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1233, in _handle_failure
+    task_instance.email_alert(error, failure_context["task"])
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3611, in email_alert
+    _email_alert(task_instance=self, exception=exception, task=task)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1445, in _email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+           ^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 155, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 274, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 318, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "/usr/local/lib/python3.12/socket.py", line 850, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+[2025-03-08T05:06:05.414+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:05.414+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: FPL_raw_teams.pull_data_from_api manual__2025-03-08T04:44:31.949817+00:00 [up_for_retry]> in state up_for_retry
+[2025-03-08T05:06:05.561+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:05.560+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:06:05.678+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:06:05.678+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:06:05.806+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 4.373 seconds
+[2025-03-08T05:08:00.154+0000] {processor.py:186} INFO - Started process (PID=101) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:08:00.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:08:00.168+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:08:00.166+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:08:02.750+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:08:02.880+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:08:02.876+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:08:03.023+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:08:03.022+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:08:04.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 4.117 seconds
+[2025-03-08T05:08:34.935+0000] {processor.py:186} INFO - Started process (PID=130) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:08:34.947+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:08:34.954+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:08:34.953+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:08:38.673+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:08:38.785+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:08:38.784+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:08:38.893+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:08:38.893+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:08:40.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 5.145 seconds
+[2025-03-08T05:09:11.246+0000] {processor.py:186} INFO - Started process (PID=154) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:09:11.253+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:09:11.263+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:09:11.262+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:09:14.426+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:09:14.604+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:09:14.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:09:14.792+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:09:14.791+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:09:14.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 3.683 seconds
+[2025-03-08T05:09:45.465+0000] {processor.py:186} INFO - Started process (PID=177) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:09:45.468+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:09:45.475+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:09:45.474+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:09:47.008+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:09:47.093+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:09:47.092+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:09:47.195+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:09:47.194+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:09:47.326+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.895 seconds
+[2025-03-08T05:10:17.699+0000] {processor.py:186} INFO - Started process (PID=192) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:10:17.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:10:17.709+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:10:17.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:10:19.389+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:10:19.504+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:10:19.503+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:10:19.614+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:10:19.613+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:10:19.701+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 2.017 seconds
+[2025-03-08T05:10:50.120+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:10:50.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:10:50.131+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:10:50.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:10:52.056+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:10:52.152+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:10:52.150+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:10:52.252+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:10:52.252+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:10:52.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 2.263 seconds
+[2025-03-08T05:11:22.537+0000] {processor.py:186} INFO - Started process (PID=228) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:11:22.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:11:22.556+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:11:22.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:11:24.795+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:11:24.920+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:11:24.915+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:11:25.070+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:11:25.069+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:11:25.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 2.679 seconds
+[2025-03-08T05:11:56.614+0000] {processor.py:186} INFO - Started process (PID=243) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:11:56.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:11:56.657+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:11:56.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:12:01.354+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:12:01.524+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:12:01.523+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:12:01.665+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:12:01.664+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:12:01.811+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 5.245 seconds
+[2025-03-08T05:12:32.597+0000] {processor.py:186} INFO - Started process (PID=260) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:12:32.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:12:32.625+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:12:32.623+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:12:35.001+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:12:35.068+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:12:35.065+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:12:35.223+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:12:35.223+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:12:35.294+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 2.744 seconds
+[2025-03-08T05:13:06.388+0000] {processor.py:186} INFO - Started process (PID=275) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:13:06.390+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:13:06.395+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:13:06.394+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:13:07.450+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:13:07.492+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:13:07.491+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:13:07.533+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:13:07.532+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:13:07.584+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.210 seconds
+[2025-03-08T05:13:37.849+0000] {processor.py:186} INFO - Started process (PID=290) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:13:37.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:13:37.870+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:13:37.868+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:13:40.415+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:13:40.489+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:13:40.488+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:13:40.545+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:13:40.545+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:13:40.587+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 2.772 seconds
+[2025-03-08T05:14:10.793+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:14:10.796+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:14:10.803+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:14:10.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:14:12.328+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:14:12.466+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:14:12.464+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:14:12.608+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:14:12.607+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:14:12.697+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.929 seconds
+[2025-03-08T05:14:43.459+0000] {processor.py:186} INFO - Started process (PID=324) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:14:43.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:14:43.466+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:14:43.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:14:45.298+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:14:45.358+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:14:45.358+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:14:45.428+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:14:45.428+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:14:45.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 2.046 seconds
+[2025-03-08T05:15:16.085+0000] {processor.py:186} INFO - Started process (PID=339) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:15:16.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:15:16.201+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:15:16.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:15:17.754+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:15:17.845+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:15:17.844+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:15:17.964+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:15:17.963+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:15:18.083+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 2.043 seconds
+[2025-03-08T05:15:48.378+0000] {processor.py:186} INFO - Started process (PID=354) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:15:48.380+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:15:48.388+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:15:48.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:15:49.656+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:15:49.723+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:15:49.722+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:15:49.789+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:15:49.789+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:15:49.902+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.543 seconds
+[2025-03-08T05:16:20.565+0000] {processor.py:186} INFO - Started process (PID=376) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:16:20.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:16:20.719+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:16:20.718+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:16:26.002+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:16:26.119+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:16:26.118+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:16:26.276+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:16:26.276+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:16:26.378+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 5.843 seconds
+[2025-03-08T05:16:56.772+0000] {processor.py:186} INFO - Started process (PID=391) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:16:56.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:16:56.785+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:16:56.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:16:57.728+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:16:57.780+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:16:57.779+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:16:57.838+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:16:57.837+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:16:57.897+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.142 seconds
+[2025-03-08T05:17:28.321+0000] {processor.py:186} INFO - Started process (PID=406) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:17:28.324+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:17:28.330+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:17:28.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:17:29.470+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:17:29.529+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:17:29.529+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:17:29.589+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:17:29.589+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:17:29.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.361 seconds
+[2025-03-08T05:18:00.151+0000] {processor.py:186} INFO - Started process (PID=422) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:18:00.154+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:18:00.159+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:18:00.158+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:18:01.134+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:18:01.197+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:18:01.196+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:18:01.278+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:18:01.277+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:18:01.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.246 seconds
+[2025-03-08T05:18:31.675+0000] {processor.py:186} INFO - Started process (PID=435) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:18:31.677+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:18:31.682+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:18:31.682+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:18:33.013+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:18:33.076+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:18:33.075+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:18:33.214+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:18:33.213+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:18:33.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.642 seconds
+[2025-03-08T05:19:03.507+0000] {processor.py:186} INFO - Started process (PID=450) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:19:03.510+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:19:03.517+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:19:03.517+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:19:04.718+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:19:04.760+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:19:04.759+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:19:04.800+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:19:04.800+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:19:04.905+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.419 seconds
+[2025-03-08T05:19:35.436+0000] {processor.py:186} INFO - Started process (PID=465) to work on /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:19:35.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py for tasks to queue
+[2025-03-08T05:19:35.449+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:19:35.445+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:19:36.777+0000] {processor.py:925} INFO - DAG(s) 'FPL_raw_teams' retrieved from /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py
+[2025-03-08T05:19:36.829+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:19:36.828+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T05:19:36.885+0000] {logging_mixin.py:190} INFO - [2025-03-08T05:19:36.885+0000] {dag.py:4180} INFO - Setting next_dagrun for FPL_raw_teams to 2025-03-08 00:05:00+00:00, run_after=2025-03-09 00:05:00+00:00
+[2025-03-08T05:19:36.981+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_Bronze/01_FPL_raw_teams.py took 1.569 seconds

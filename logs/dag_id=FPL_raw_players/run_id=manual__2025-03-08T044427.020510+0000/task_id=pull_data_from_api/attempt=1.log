@@ -1,0 +1,14 @@
+[2025-03-08T04:44:30.148+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-08T04:44:30.170+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: FPL_raw_players.pull_data_from_api manual__2025-03-08T04:44:27.020510+00:00 [queued]>
+[2025-03-08T04:44:30.185+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: FPL_raw_players.pull_data_from_api manual__2025-03-08T04:44:27.020510+00:00 [queued]>
+[2025-03-08T04:44:30.187+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 4
+[2025-03-08T04:44:30.211+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): pull_data_from_api> on 2025-03-08 04:44:27.020510+00:00
+[2025-03-08T04:44:30.224+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=9202) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-08T04:44:30.229+0000] {standard_task_runner.py:72} INFO - Started process 9204 to run task
+[2025-03-08T04:44:30.228+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'FPL_raw_players', 'pull_data_from_api', 'manual__2025-03-08T04:44:27.020510+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/01_Bronze/02_FPL_raw_players.py', '--cfg-path', '/tmp/tmphsdhm0kd']
+[2025-03-08T04:44:30.232+0000] {standard_task_runner.py:105} INFO - Job 71: Subtask pull_data_from_api
+[2025-03-08T04:44:30.396+0000] {task_command.py:467} INFO - Running <TaskInstance: FPL_raw_players.pull_data_from_api manual__2025-03-08T04:44:27.020510+00:00 [running]> on host 6fac9c74855d
+[2025-03-08T04:44:30.581+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='bobotieno99@gmail.com' AIRFLOW_CTX_DAG_OWNER='Fantasy Premier League' AIRFLOW_CTX_DAG_ID='FPL_raw_players' AIRFLOW_CTX_TASK_ID='pull_data_from_api' AIRFLOW_CTX_EXECUTION_DATE='2025-03-08T04:44:27.020510+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-08T04:44:27.020510+00:00'
+[2025-03-08T04:44:30.583+0000] {taskinstance.py:732} INFO - ::endgroup::

@@ -1,0 +1,33 @@
+[2025-03-11T11:55:14.475+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-11T11:55:14.619+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: FPL_raw_games.create_data_frame scheduled__2025-03-10T00:05:00+00:00 [queued]>
+[2025-03-11T11:55:14.684+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: FPL_raw_games.create_data_frame scheduled__2025-03-10T00:05:00+00:00 [queued]>
+[2025-03-11T11:55:14.685+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 3
+[2025-03-11T11:55:14.742+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): create_data_frame> on 2025-03-10 00:05:00+00:00
+[2025-03-11T11:55:14.782+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'FPL_raw_games', 'create_data_frame', 'scheduled__2025-03-10T00:05:00+00:00', '--job-id', '127', '--raw', '--subdir', 'DAGS_FOLDER/01_Bronze/03_FPL_raw_game_week.py', '--cfg-path', '/tmp/tmp_arh8m1z']
+[2025-03-11T11:55:14.793+0000] {standard_task_runner.py:105} INFO - Job 127: Subtask create_data_frame
+[2025-03-11T11:55:14.783+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=107) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-11T11:55:14.801+0000] {standard_task_runner.py:72} INFO - Started process 117 to run task
+[2025-03-11T11:55:14.969+0000] {task_command.py:467} INFO - Running <TaskInstance: FPL_raw_games.create_data_frame scheduled__2025-03-10T00:05:00+00:00 [running]> on host fadf592d593e
+[2025-03-11T11:55:16.781+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='bobotieno99@gmail.com' AIRFLOW_CTX_DAG_OWNER='Fantasy Premier League' AIRFLOW_CTX_DAG_ID='FPL_raw_games' AIRFLOW_CTX_TASK_ID='create_data_frame' AIRFLOW_CTX_EXECUTION_DATE='2025-03-10T00:05:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-10T00:05:00+00:00'
+[2025-03-11T11:55:16.787+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-11T11:55:17.177+0000] {03_FPL_raw_game_week.py:83} INFO - ✅ DataFrame created with 380 records.
+[2025-03-11T11:55:17.178+0000] {python.py:240} INFO - Done. Returned value was:      game_code  game_week_id  ...  difficulty_a  difficulty_h
+0      2444470             1  ...             3             3
+1      2444473             1  ...             2             5
+2      2444471             1  ...             4             2
+3      2444472             1  ...             3             3
+4      2444474             1  ...             4             2
+..         ...           ...  ...           ...           ...
+375    2444845            38  ...             4             2
+376    2444846            38  ...             4             4
+377    2444847            38  ...             2             4
+378    2444848            38  ...             3             3
+379    2444849            38  ...             2             2
+
+[380 rows x 11 columns]
+[2025-03-11T11:55:18.251+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-11T11:55:18.271+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=FPL_raw_games, task_id=create_data_frame, run_id=scheduled__2025-03-10T00:05:00+00:00, execution_date=20250310T000500, start_date=20250311T115514, end_date=20250311T115518
+[2025-03-11T11:55:18.512+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-11T11:55:18.569+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

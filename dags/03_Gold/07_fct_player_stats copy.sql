@@ -8,7 +8,7 @@ SELECT
     ps.stats_value AS value,-- Recorded value of the statistic
     spi.player_code,        -- Player's unique code from player info
     ps.season,              -- Season during which the stats were recorded
-    gs.stats_key AS _key    -- Foreign key linking to stat type dimension
+    gs.stats_key AS stats_key    -- Foreign key linking to stat type dimension
 FROM silver.player_stats ps         -- Source table containing player statistics
     -- Left join to include all player stats even if stat type is missing
     LEFT JOIN gold.v_dimension_stat_type gs 
